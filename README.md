@@ -16,7 +16,7 @@ William Jackson
 
 ## Prerequisites
 
-This project requires [docker](https://www.docker.com/get-started/), [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/), [kind](https://kind.sigs.k8s.io/docs/user/quick-start/#installation), and cloud-provider-kind to be installed.
+This project requires [docker](https://www.docker.com/get-started/), [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/), [kind](https://kind.sigs.k8s.io/docs/user/quick-start/#installation), and [cloud-provider-kind](https://github.com/kubernetes-sigs/cloud-provider-kind) to be installed.
 
 ## Running the K8S cluster
 
@@ -60,11 +60,17 @@ sudo kind delete cluster --name multi-node-cluster
 follow the instructions in [load-gen/README.md](load-gen/README.md)
 
 # Sources Used
-https://medium.com/@rishikrohan/run-a-multi-node-kubernetes-cluster-locally-with-kind-9a7101d85743
-https://dev.to/i_am_vesh/multi-node-kubernetes-cluster-setup-with-kind-mih
-https://bytegoblin.io/blog/how-to-run-locally-built-docker-images-in-kubernetes
-https://www.codebuff.dev/blog/Kind-Cluster-LoadBalancer-Kubernetes
-https://github.com/damini112/k8s-hpa-metrics-server?tab=readme-ov-file
-https://gist.github.com/sanketsudake/a089e691286bf2189bfedf295222bd43
 
-official documentation for kind, kubernetes, and docker also used extensively.
+- https://medium.com/@rishikrohan/run-a-multi-node-kubernetes-cluster-locally-with-kind-9a7101d85743
+
+- https://dev.to/i_am_vesh/multi-node-kubernetes-cluster-setup-with-kind-mih
+
+- https://bytegoblin.io/blog/how-to-run-locally-built-docker-images-in-kubernetes
+
+- https://www.codebuff.dev/blog/Kind-Cluster-LoadBalancer-Kubernetes
+
+- https://github.com/damini112/k8s-hpa-metrics-server?tab=readme-ov-file
+
+- https://gist.github.com/sanketsudake/a089e691286bf2189bfedf295222bd43
+
+- official documentation for kind, kubernetes, and docker also used extensively.
